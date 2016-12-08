@@ -37,7 +37,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-include 'etherpad-lite-client.php';
+require_once __DIR__ . '/etherpad-lite-client.php';
 
 /**
  * Given an object containing all the necessary data,
