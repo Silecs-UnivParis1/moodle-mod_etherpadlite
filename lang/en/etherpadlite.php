@@ -72,4 +72,5 @@ $string['guestsallowed_help'] = 'This determines if guests are allowed to write 
 
 // view
 $string['summaryguest'] = 'You are logged in as guest. That\'s why you can only see the readonly version of this Pad. Reload the page to get new changes.';
-?>
+
+$string['search:activity'] = 'Etherpad - Pad content';
