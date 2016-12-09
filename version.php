@@ -21,15 +21,17 @@
  * @package    mod_etheradlite
  *
  * @author     Timo Welde <tjwelde@gmail.com>
+ * @author     François Gannaz <francois.gannaz@silecs.info>
  * @copyright  2012 Humboldt-Universität zu Berlin <moodle-support@cms.hu-berlin.de>
+ * @copyright  2016 Université Paris 1 Panthéon-Sorbonne
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version    = 2015060301;  // The current module version (Date: YYYYMMDDXX)
+$plugin->version    = 2016120901;  // The current module version (Date: YYYYMMDDXX)
 $plugin->requires   = 2014051200;
 $plugin->cron       = 0;           // Period for cron to check this module (secs)
 $plugin->component  = 'mod_etherpadlite';
 $plugin->maturity   = MATURITY_STABLE;
-$plugin->release    = '2.7.0 (Build: 2015021100)';
+$plugin->release    = '2.8.0 (build 2016120901)';
